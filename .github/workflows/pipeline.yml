@@ -20,7 +20,7 @@ jobs:
       run: npm install
     - name: Install Playwright
       run: npx playwright install
-    - name: Install BE
+    - name: Start BE
       run: npm run start-be
       
 
