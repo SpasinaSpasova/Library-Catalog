@@ -42,7 +42,7 @@ jobs:
            api-key: ${{ secrets.MY_RENDER_API_KEY }}
 
   deploy-fe:
-      needs: build-test
+      needs: deploy-be
       runs-on: ubuntu-latest
       steps:
         - name: Deploy to production
